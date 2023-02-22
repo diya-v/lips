@@ -1,0 +1,18 @@
+body{
+    background-image: url("background.jpg");
+}
+
+.snapshot:hover{
+background-color: red;
+}
+
+canvas{
+   animation-name: glow;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes glow{
+    from{box-shadow:5px 5px 100px purple}
+    to{box-shadow: 5px 5px 100px greenyellow}
+}
